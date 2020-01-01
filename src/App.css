@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
+div.main {
+  margin: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+div.classification-name {
+  height: 30px;
+  width: 100px;
+  float: left;
+  clear: both;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+div.description {
+  height: 30px;
+  width: 150px;
+  float: left;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+div.unit-price {
+  height: 30px;
+  width: 100px;
+  float: left;
 }
 
-.App-link {
-  color: #61dafb;
+div.num-people {
+  height: 30px;
+  width: 100px;
+  float: left;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+div.party {
+  margin-top: 10px;
+  height: 30px;
+  width: 150px;
+  background-color: azure;
+  float: left;
+  clear: both;
+}
+
+div.total-amount {
+  margin-top: 10px;
+  height: 30px;
+  width: 200px;
+  background-color: azure;
+  float: left;
+}
+
+input.party {
+  width: 50px;
+  text-align: right;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+input.total-amount {
+  width: 80px;
+  text-align: right;
+  margin-left: 5px;
+  margin-right: 5px;
 }
